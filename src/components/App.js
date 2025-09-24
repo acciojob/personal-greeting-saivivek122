@@ -7,7 +7,7 @@ const App = () => {
   function userInputValue(event){
     let userInput=event.target.value
     if(userInput!=""){
-      setValue("Hello,"+userInput)
+      setValue("Hello ," + userInput + "!")
     }
     else{
       setValue("")
